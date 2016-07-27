@@ -22,4 +22,4 @@
         //火星坐标（GCJ02） 坐标 转 百度地图 BD09
         lngLat_bd09 = CoordinateTransform.transformGCJ02ToBD09(lngLat_gcj02[0], lngLat_gcj02[1]);
         System.out.println("lng :" + lngLat_bd09[0] + ",lat :" + lngLat_bd09[1]);
-    }
+}

@@ -1,6 +1,9 @@
 /**
  * Created by Daniel on 2016/7/27.
+ * 
  * 提供了百度坐标（BD09）、国测局坐标（火星坐标，GCJ02）、和WGS84坐标系之间的转换
+ *
+ * 会有偏差，但是偏差在可接受范围之内
  */
 (function (root, factory) {
     root.CoordinateTransform = factory();
